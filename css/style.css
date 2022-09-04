@@ -1,0 +1,78 @@
+
+header{
+    height: 100px;
+    display: flex;
+    background-color: #222222;
+    color:#F3F3F3;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    justify-content: space-around;
+    box-shadow: 1.5em;
+}
+
+.logoH{
+    flex-grow: 0.90;
+}
+
+.main{
+    margin: 40px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.promo{
+    background-image: url(/img/delivery.jpg);
+    color: red;
+    text-align: center;
+    border-radius: 5px;
+    width: 490px;
+    height: 350px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-image: url(/img/Rectangle\ 2.png);
+    border-radius: 5px;
+    width: 490px;
+    height: 350px;
+    position: relative;
+}
+.menuT{
+    text-align: center;
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+    flex-grow: 1;
+    position: absolute;
+    top: 20px;
+}
+.menuL{
+    text-align: left;
+    font-weight: bold;
+}
+.menuR{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    height: 150px;
+    background-color: #222222;
+    color:#F3F3F3;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    justify-content: space-around;
+    box-shadow: 1.5em;
+}
+.logoF{
+    flex-grow: 0.90;
+    text-align: right;
+}
